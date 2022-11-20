@@ -11,7 +11,7 @@ import ij.util.Tools;
  * subordinate progress bars as dots by using
  * IJ.showProgress(-currentIndex,finalIndex).
 */
-public class Benchmark implements PlugIn {
+public class Benchmark implements BenchmarkPlugIn {
     private String[] results = {
         " 9.5|MacBook Pro (M1 Max, 2021)",
         "10.9|MacBook Air (M1, 2020, Native)",

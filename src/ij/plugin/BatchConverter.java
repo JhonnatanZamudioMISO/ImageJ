@@ -10,7 +10,7 @@ import java.io.*;
 
 /** This plugin implements the File/ /Convert command, 
 	which converts the images in a folder to a specified format. */
-	public class BatchConverter implements PlugIn, ActionListener {
+	public class BatchConverter implements BatchConverterPlugIn, ActionListener {
 		private static final String[] formats = {"TIFF", "8-bit TIFF", "JPEG", "GIF", "PNG", "PGM", "BMP", "FITS", "Text Image", "ZIP", "Raw"};
 		private static String format = formats[0];
 		private static double scale = 1.0;

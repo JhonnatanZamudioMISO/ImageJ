@@ -7,7 +7,7 @@ import ij.plugin.frame.Recorder;
 import java.awt.Point;
 
 /** This plugin animates stacks. */
-public class Animator implements PlugIn {
+public class Animator implements AnimatorPlugIn {
 
 	private static double animationRate = Prefs.getDouble(Prefs.FPS, 7.0);
 	private static int firstFrame=0, lastFrame=0;

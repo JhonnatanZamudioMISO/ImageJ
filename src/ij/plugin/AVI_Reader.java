@@ -128,7 +128,7 @@ import javax.imageio.ImageIO;
  * </pre>
  */
 
-public class AVI_Reader extends VirtualStack implements PlugIn {
+public class AVI_Reader extends VirtualStack implements AVI_ReaderPlugIn {
 
 	//four-character codes for avi chunk types
 	//NOTE: byte sequence is reversed - ints in Intel (little endian) byte order!

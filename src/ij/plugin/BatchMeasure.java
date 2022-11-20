@@ -6,7 +6,7 @@ import java.io.*;
 
 /** This plugin implements the File/Batch/Measure command, 
 	which measures all the images in a user-specified folder. */
-	public class BatchMeasure implements PlugIn {
+	public class BatchMeasure implements BatchMeasurePlugIn {
 
 	public void run(String arg) {
 		String dir = IJ.getDirectory("Choose a Folder");

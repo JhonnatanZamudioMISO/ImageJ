@@ -14,7 +14,7 @@ import java.awt.image.*;
  * @author Nico Stuurman
  * @author Wayne Rasband
  */
-public class Binner implements PlugIn {
+public class Binner implements BinnerPlugIn {
 	public static int AVERAGE=0, MEDIAN=1, MIN=2, MAX=3, SUM=4;
 	private static String[] methods = {"Average", "Median", "Min", "Max", "Sum"};
 	private int xshrink=2, yshrink=2, zshrink=1;

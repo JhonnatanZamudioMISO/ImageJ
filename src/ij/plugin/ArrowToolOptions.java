@@ -4,7 +4,7 @@ import ij.gui.*;
 import java.awt.*;
 
 /** This plugin implements the Edit/Options/Arrow Tool command. */
-public class ArrowToolOptions implements PlugIn, DialogListener {
+public class ArrowToolOptions implements ArrowToolOptionsPlugIn, DialogListener {
 	private String colorName;
 	private static GenericDialog gd;
 	private static final String LOC_KEY = "arrows.loc";
