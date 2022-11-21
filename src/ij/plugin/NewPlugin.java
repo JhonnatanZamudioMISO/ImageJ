@@ -8,7 +8,7 @@ import ij.io.SaveDialog;
 import ij.util.Tools;
 
 /** This class creates a new macro or the Java source for a new plugin. */
-public class NewPlugin implements PlugIn {
+public class NewPlugin implements NewPluginPlugIn {
 
 	public static final int MACRO=0, JAVASCRIPT=1, PLUGIN=2, PLUGIN_FILTER=3, PLUGIN_FRAME=4,
 		TEXT_FILE=5, TABLE=6, MACRO_TOOL=7, PLUGIN_TOOL=8, TEMPLATE=9;

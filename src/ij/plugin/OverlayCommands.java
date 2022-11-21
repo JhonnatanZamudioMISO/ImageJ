@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.awt.geom.Rectangle2D;
 
 /** This plugin implements the commands in the Image/Overlay menu. */
-public class OverlayCommands implements PlugIn {
+public class OverlayCommands implements OverlayCommandsPlugIn {
 	private static int opacity = 100;
 	private static Roi defaultRoi;
 	private static boolean zeroTransparent;

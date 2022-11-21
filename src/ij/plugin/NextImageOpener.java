@@ -15,7 +15,7 @@ import ij.io.*;
 import ij.gui.*;
 import java.io.File;
 
-public class NextImageOpener implements PlugIn {
+public class NextImageOpener implements NextImageOpenerPlugIn {
 
 	boolean forward = true; // default browse direction is forward
 	boolean closeCurrent = true; //default behavior is to close current window

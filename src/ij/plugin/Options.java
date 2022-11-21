@@ -10,7 +10,7 @@ import java.awt.*;
 
 /** This plugin implements most of the commands
 	in the Edit/Options sub-menu. */
-public class Options implements PlugIn {
+public class Options implements OptionsPlugIn {
 
  	public void run(String arg) {
 		if (arg.equals("fresh-start"))

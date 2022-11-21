@@ -18,7 +18,7 @@ import java.util.*;
  * 		
  * @author Dimiter Prodanov
  */
-public class Orthogonal_Views implements PlugIn, MouseListener, MouseMotionListener, KeyListener, ActionListener, 
+public class Orthogonal_Views implements Orthogonal_ViewsPlugIn, MouseListener, MouseMotionListener, KeyListener, ActionListener, 
 	ImageListener, WindowListener, AdjustmentListener, MouseWheelListener, FocusListener, CommandListener, Runnable {
 
 	private ImageWindow win;

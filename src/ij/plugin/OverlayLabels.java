@@ -8,7 +8,7 @@ import java.awt.*;
 import java.util.Vector;
 
 /** This plugin implements the Image/Overlay/Labels command. */
-public class OverlayLabels implements PlugIn, DialogListener {
+public class OverlayLabels implements OverlayLabelsPlugIn, DialogListener {
 	private static final String[] fontSizes = {"7", "8", "9", "10", "12", "14", "18", "24", "28", "36", "48", "72"};
 	private static Overlay defaultOverlay = new Overlay();
 	private ImagePlus imp;
