@@ -9,7 +9,7 @@ import java.awt.image.*;
 /** Implements the File/Save As/BMP command. Based on BMPFile class from
    http://www.javaworld.com/javaworld/javatips/jw-javatip60-p2.html */
 
-public class BMP_Writer implements PlugIn {
+public class BMP_Writer implements BMP_WriterPlugIn {
  //--- Private constants
  private final static int BITMAPFILEHEADER_SIZE = 14;
  private final static int BITMAPINFOHEADER_SIZE = 40;

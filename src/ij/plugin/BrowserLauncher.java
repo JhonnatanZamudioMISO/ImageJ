@@ -48,7 +48,7 @@ import java.net.URLClassLoader;
  * @author Eric Albert (<a href="mailto:ejalbert@cs.stanford.edu">ejalbert@cs.stanford.edu</a>)
  * @version 1.4b1 (Released June 20, 2001)
  */
-public class BrowserLauncher implements PlugIn {
+public class BrowserLauncher implements BrowserLauncherPlugIn {
 	/** The com.apple.mrj.MRJFileUtils class */
 	private static Class mrjFileUtilsClass;
 	/** The openURL method of com.apple.mrj.MRJFileUtils */

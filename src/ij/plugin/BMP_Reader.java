@@ -13,7 +13,7 @@ import ij.io.*;
         specified file and the calling routine can display it using
         "((ImagePlus)IJ.runPlugIn("ij.plugin.BMP_Reader", path)).show()".
         */
-public class BMP_Reader extends ImagePlus implements PlugIn {
+public class BMP_Reader extends ImagePlus implements BMP_ReaderPlugIn {
 
         public void run(String arg) {
                 OpenDialog od = new OpenDialog("Open BMP...", arg);
