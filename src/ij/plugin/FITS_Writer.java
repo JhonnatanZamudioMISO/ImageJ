@@ -16,7 +16,7 @@ import ij.measure.*;
  * <br>Version 2008-12-15 : fixed END card recognition bug (F.V. Hessman, Univ. Goettingen).
  * <br>Version 2019-11-03 : various updates  (K.A. Collins, CfA-Harvard and Smithsonian).
  */
-public class FITS_Writer implements PlugIn {
+public class FITS_Writer implements FITS_WriterPlugIn {
 
     private int numCards = 0;
     private Calibration cal;

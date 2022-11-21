@@ -9,7 +9,7 @@ import java.awt.geom.*;
 import java.util.*;
 
 /** This class implements the Analyze/Tools/Grid command. */
-public class Grid implements PlugIn, DialogListener {
+public class Grid implements GridPlugIn, DialogListener {
 	private static final String OPTIONS = "grid.options";
 	private static final String GRID = "|GRID|";
 	private static double crossSize = 0.1;

@@ -11,7 +11,7 @@ import java.awt.image.ColorModel;
 
 /** Implements the "Stack to HyperStack", "RGB to HyperStack" 
 	and "HyperStack to Stack" commands. */
-public class HyperStackConverter implements PlugIn {
+public class HyperStackConverter implements HyperStackConverterPlugIn {
 	public static final int CZT=0, CTZ=1, ZCT=2, ZTC=3, TCZ=4, TZC=5;
 	static final int C=0, Z=1, T=2;
 	static final String[] orders = {"xyczt(default)", "xyctz", "xyzct", "xyztc", "xytcz", "xytzc"};

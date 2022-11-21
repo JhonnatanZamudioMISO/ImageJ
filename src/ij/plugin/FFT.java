@@ -20,7 +20,7 @@ in the public domain by Stanford University in 1995 and is now freely available.
 
 Version 2008-08-25 inverse transform: mask is always symmetrized
 */
-public class FFT implements PlugIn, Measurements {
+public class FFT implements FFTPlugIn, Measurements {
 
 	// static settings
 	public static boolean displayRawPS;

@@ -13,7 +13,7 @@ import ij.measure.*;
  * Edit/Options/Startup dialog to have FITS images not
  * flipped vertically.
 */
-public class FITS_Reader extends ImagePlus implements PlugIn {
+public class FITS_Reader extends ImagePlus implements FITS_ReaderPlugIn {
 	private static boolean flipImages = true;
 
 	public void run(String arg) {

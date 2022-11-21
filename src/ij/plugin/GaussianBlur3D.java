@@ -5,7 +5,7 @@ import ij.gui.*;
 import java.awt.*;
 import ij.plugin.filter.*;
 
-public class GaussianBlur3D implements PlugIn {
+public class GaussianBlur3D implements GaussianBlur3DPlugIn {
 	private static double xsigma=2, ysigma=2, zsigma=2;
 
 	public void run(String arg) {

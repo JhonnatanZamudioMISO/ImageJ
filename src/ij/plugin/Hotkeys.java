@@ -8,7 +8,7 @@ import java.io.*;
 import java.util.*;
 
 /** Implements the Plugins/Hotkeys/Create Shortcut and Remove commands. */
-public class Hotkeys implements PlugIn {
+public class Hotkeys implements HotkeysPlugIn {
 
 	private static final String TITLE = "Hotkeys";
 	private static String command = "";

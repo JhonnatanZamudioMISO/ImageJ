@@ -15,7 +15,7 @@ This plugin implements the Analyze/Distribution command.
 It reads the data from the ResultsTable and plots a frequency histogram.
 @author G. Landini at bham. ac. uk
 */
-public class Distribution implements PlugIn, TextListener {
+public class Distribution implements DistributionPlugIn, TextListener {
 	static String parameter = "Area";
 	static boolean autoBinning = true;
 	static int nBins = 10;

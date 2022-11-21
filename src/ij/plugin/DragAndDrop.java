@@ -19,7 +19,7 @@ import java.util.ArrayList;
      option to open all images in a dragged folder as a stack.
 */
      
-public class DragAndDrop implements PlugIn, DropTargetListener, Runnable {
+public class DragAndDrop implements DragAndDropPlugIn, DropTargetListener, Runnable {
 	private Iterator iterator;
 	private static boolean convertToRGB;
 	private static boolean virtualStack;

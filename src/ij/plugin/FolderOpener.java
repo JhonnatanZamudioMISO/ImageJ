@@ -14,7 +14,7 @@ import ij.plugin.frame.Recorder;
 
 /** Implements the File/Import/Image Sequence command, which
 	opens a folder of images as a stack. */
-public class FolderOpener implements PlugIn, TextListener {
+public class FolderOpener implements FolderOpenerPlugIn, TextListener {
 	private static final int MAX_SEPARATE = 100;
 	private static final String DIR_KEY = "import.sequence.dir";
 	private static final String[] types = {"default", "16-bit", "32-bit", "RGB"};

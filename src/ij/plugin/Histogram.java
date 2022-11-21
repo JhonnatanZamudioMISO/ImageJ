@@ -12,7 +12,7 @@ import java.util.Vector;
 
 
 /** This plugin implements the Analyze/Histogram command. */
-public class Histogram implements PlugIn, TextListener {
+public class Histogram implements HistogramPlugIn, TextListener {
 
 	private static boolean staticUseImageMinAndMax = true;
 	private static double staticXMin, staticXMax;

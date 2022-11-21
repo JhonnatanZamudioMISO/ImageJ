@@ -18,7 +18,7 @@ import ij.measure.Calibration;
    img2.show();
 </pre>
 */
-public class Duplicator implements PlugIn, TextListener, ItemListener {
+public class Duplicator implements DuplicatorPlugIn, TextListener, ItemListener {
 	private static boolean staticDuplicateStack;
 	private static boolean staticIgnoreSelection;
 	private static boolean ignoreNextSelection;

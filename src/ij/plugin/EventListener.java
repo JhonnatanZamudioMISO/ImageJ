@@ -9,7 +9,7 @@ import java.awt.EventQueue;
 	color changes, tool switches, Log window closings, command executions, image
 	window openings, closings and updates, and ROI changes.
 */
-public class EventListener implements PlugIn, IJEventListener, ImageListener, RoiListener, CommandListener {
+public class EventListener implements EventListenerPlugIn, IJEventListener, ImageListener, RoiListener, CommandListener {
 
 	public void run(String arg) {
 		IJ.addEventListener(this);

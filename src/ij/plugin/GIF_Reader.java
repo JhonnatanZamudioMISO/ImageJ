@@ -9,7 +9,7 @@ import java.awt.*;
 import java.awt.image.*;
 
 /** This plugin opens GIFs and Animated GIFs. */
-public class GIF_Reader extends ImagePlus implements PlugIn {
+public class GIF_Reader extends ImagePlus implements GIF_ReaderPlugIn {
 
 	public void run(String arg) {
 		OpenDialog od = new OpenDialog("Open GIF...", arg);

@@ -51,7 +51,7 @@ import ij.measure.Calibration;
 
    */
 
-public class DICOM extends ImagePlus implements PlugIn {
+public class DICOM extends ImagePlus implements DICOMPlugIn {
 	private boolean showErrors = true;
 	private boolean gettingInfo;
 	private BufferedInputStream inputStream;

@@ -6,7 +6,7 @@ import ij.measure.Calibration;
 
 /** Implements the Image/Stacks/Tools/Grouped Z Project command. */
 
-public class GroupedZProjector implements PlugIn {
+public class GroupedZProjector implements GroupedZProjectorPlugIn {
 	private static int method = ZProjector.AVG_METHOD;
 	private int groupSize;
 	

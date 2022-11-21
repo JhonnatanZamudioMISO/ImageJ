@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * This plugin implements most of the 3D filters in the Process/Filters submenu.
  * @author Thomas Boudier
  */
-public class Filters3D implements PlugIn {
+public class Filters3D implements Filters3DPlugIn {
     public final static int MEAN=10, MEDIAN=11, MIN=12, MAX=13, VAR=14, MAXLOCAL=15;
 	private static float xradius = 2, yradius = 2, zradius = 2;
 

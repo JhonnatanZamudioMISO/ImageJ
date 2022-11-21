@@ -7,7 +7,7 @@ import java.awt.*;
 import java.util.Vector;
 
 /** Implements the Image/HyperStacks/Reduce Dimensionality command. */
-public class HyperStackReducer implements PlugIn, DialogListener {
+public class HyperStackReducer implements HyperStackReducerPlugIn, DialogListener {
 	ImagePlus imp;
 	int channels1, slices1, frames1;
 	int channels2, slices2, frames2;

@@ -12,7 +12,7 @@ import java.util.*;
 
 /** This plugin generates gel profile plots that can be analyzed using
 the wand tool. It is similar to the "Gel Plotting Macros" in NIH Image. */
-public class GelAnalyzer implements PlugIn {
+public class GelAnalyzer implements GelAnalyzerPlugIn {
 
     static final String OPTIONS = "gel.options"; 
     static final String VSCALE = "gel.vscale"; 

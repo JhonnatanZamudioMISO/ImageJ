@@ -10,7 +10,7 @@ import java.awt.image.*;
 import javax.imageio.ImageIO;
 
 /** Saves the active image in GIF format, or as an animated GIF if the image is a stack. */
-public class GifWriter implements PlugIn {
+public class GifWriter implements GifWriterPlugIn {
 	static int transparentIndex = Prefs.getTransparentIndex();
 	private boolean showErrors = true;
 	private String error;
