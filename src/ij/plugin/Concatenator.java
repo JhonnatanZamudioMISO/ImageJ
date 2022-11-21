@@ -17,7 +17,7 @@ import java.awt.image.ColorModel;
  *	Has the option of viewing the concatenated stack as a 4D image.
  *	@author Jon Jackson j.jackson # ucl.ac.uk
  */
-public class Concatenator implements PlugIn, ItemListener{
+public class Concatenator implements ConcatenatorPlugIn, ItemListener{
 	public String pluginName =	"Concatenator";
 	public int maxEntries = 18;	 // limit number of entries to fit on screen
 	private static boolean all_option = false;

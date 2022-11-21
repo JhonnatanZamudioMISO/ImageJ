@@ -21,7 +21,7 @@ import ij.measure.*;
 	Jan 2020: calibration bar on separate image, Norbert Vischer
 */
 
-public class CalibrationBar implements PlugIn {
+public class CalibrationBar implements CalibrationBarPlugIn {
 	public static final double  STROKE_WIDTH = 1.0001;
 	final static int BAR_LENGTH = 128;
 	final static int BAR_THICKNESS = 12;

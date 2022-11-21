@@ -39,7 +39,7 @@ import javax.swing.table.*;
 import javax.swing.event.*;
 import javax.swing.event.DocumentEvent;
 
-public class CommandFinder implements PlugIn, ActionListener, WindowListener, KeyListener, ItemListener, MouseListener {
+public class CommandFinder implements CommandFinderPlugIn, ActionListener, WindowListener, KeyListener, ItemListener, MouseListener {
 
 	private static final int TABLE_WIDTH = 640;
 	private static final int TABLE_ROWS = 18;

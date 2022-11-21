@@ -9,7 +9,7 @@ import ij.macro.Interpreter;
 import ij.plugin.frame.Recorder;
 
 /** This plugin implements the Image/Color/Make Composite command. */
-public class CompositeConverter implements PlugIn {
+public class CompositeConverter implements CompositeConverterPlugIn {
 
 	public void run(String arg) {
 		ImagePlus imp = IJ.getImage();

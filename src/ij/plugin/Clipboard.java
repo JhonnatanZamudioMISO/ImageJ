@@ -13,7 +13,7 @@ import ij.text.TextWindow;
 import ij.util.Tools;
 	
 /**	Copies/pastes images to/from the system clipboard. */
-public class Clipboard implements PlugIn, Transferable {
+public class Clipboard implements ClipboardPlugIn, Transferable {
 	static java.awt.datatransfer.Clipboard clipboard;
 	private ImagePlus gImp;
 	

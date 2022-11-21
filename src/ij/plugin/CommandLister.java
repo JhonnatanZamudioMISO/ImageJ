@@ -8,7 +8,7 @@ import java.awt.event.*;
 
 /** This class is used by the Plugins/Shortcuts/List Shortcuts 
 	command to display a list keyboard shortcuts. */
-public class CommandLister implements PlugIn {
+public class CommandLister implements CommandListerPlugIn {
 
 	public void run(String arg) {
 		if (arg.equals("shortcuts"))

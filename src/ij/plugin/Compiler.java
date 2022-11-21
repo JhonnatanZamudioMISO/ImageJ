@@ -13,7 +13,7 @@ import java.util.*;
 import javax.tools.*;
 
 /** Compiles and runs plugins using the javac compiler. */
-public class Compiler implements PlugIn, FilenameFilter {
+public class Compiler implements CompilerPlugIn, FilenameFilter {
 
 	private static final String info = 
 		"Library JAR files (e.g., imagescience.jar) should\n"

@@ -6,7 +6,7 @@ import ij.measure.*;
 import java.awt.*;
 
 /** Implements ImageJ's Process/Enhance Contrast command. */
-public class ContrastEnhancer implements PlugIn, Measurements {
+public class ContrastEnhancer implements ContrastEnhancerPlugIn, Measurements {
 	static final double defaultSaturated = 0.35;
 	static double gSaturated = defaultSaturated;
 	static boolean gEqualize;

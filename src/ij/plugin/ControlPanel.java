@@ -22,7 +22,7 @@ import ij.text.TextWindow;
  * This plugin displays a panel with ImageJ commands in a hierarchical tree structure.
  * @author Cezar M. Tigaret <c.tigaret@ucl.ac.uk>
  */
-public class ControlPanel implements PlugIn {
+public class ControlPanel implements ControlPanelPlugIn {
 
 	/** The platform-specific file separator string.*/
 	private static final String fileSeparator=System.getProperty("file.separator");

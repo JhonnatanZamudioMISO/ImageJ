@@ -9,7 +9,7 @@ import ij.Prefs;
 import ij.util.StringSorter;
 
 /** Checks for duplicate class and JAR files in the plugins folders. */
-public class ClassChecker implements PlugIn {
+public class ClassChecker implements ClassCheckerPlugIn {
 	private String[] paths = null;
 	private String[] names = null;
 

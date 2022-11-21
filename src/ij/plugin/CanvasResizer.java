@@ -10,7 +10,7 @@ import java.awt.*;
 	The border is filled with the current background color.
 	@author Jeffrey Kuhn (jkuhn at ccwf.cc.utexas.edu)
 */
-public class CanvasResizer implements PlugIn {
+public class CanvasResizer implements CanvasResizerPlugIn {
 	boolean zeroFill = Prefs.get("resizer.zero", false);
 
 	public void run(String arg) {

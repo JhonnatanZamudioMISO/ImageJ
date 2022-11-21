@@ -5,7 +5,7 @@ import ij.measure.Calibration;
 import java.awt.*;
 
 /** This class implements the Process/FFT/Make Circular Selection command. */
-public class CircularRoiMaker implements PlugIn, DialogListener {
+public class CircularRoiMaker implements CircularRoiMakerPlugIn, DialogListener {
 	private static double saveRadius;
 	private double xcenter, ycenter, radius;
 	private boolean bAbort;

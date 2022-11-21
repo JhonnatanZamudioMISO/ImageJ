@@ -14,7 +14,7 @@ import java.util.Vector;
  *
  * @author Norbert Vischer <vischer@science.uva.nl> 23-sep-2012
  */
-public class ChannelArranger implements PlugIn, TextListener {
+public class ChannelArranger implements ChannelArrangerPlugIn, TextListener {
 	private ThumbnailsCanvas thumbNails;
 	private String patternString;
 	private String allowedDigits;

@@ -5,7 +5,7 @@ import ij.gui.*;
 import java.awt.*;
 
 /** Implements the conversion commands in the Image/Type submenu. */
-public class Converter implements PlugIn {
+public class Converter implements ConverterPlugIn {
 
 	/** obsolete */
 	public static boolean newWindowCreated;

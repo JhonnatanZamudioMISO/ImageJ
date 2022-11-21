@@ -16,7 +16,7 @@ import java.awt.geom.Rectangle2D;
  * Z unit of stacks can be selected (2019-09-30, Stein Rorvik).
  */
  
-public class Coordinates implements PlugIn, DialogListener {
+public class Coordinates implements CoordinatesPlugIn, DialogListener {
 
 	private static final String help = "<html>"
 	+"<h1>Image&gt;Adjust&gt;Coordinates</h1>"

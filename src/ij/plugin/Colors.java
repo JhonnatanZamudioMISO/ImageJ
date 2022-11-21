@@ -10,7 +10,7 @@ import java.awt.event.*;
 import java.util.*;
 
 /** This plugin implements most of the Edit/Options/Colors command. */
-public class Colors implements PlugIn, ItemListener {
+public class Colors implements ColorsPlugIn, ItemListener {
 	public static final String[] colors = {"red","green","blue","magenta","cyan","yellow","orange","black","white","gray","lightgray","darkgray","pink"};
 	private static final String[] colors2 = {"Red","Green","Blue","Magenta","Cyan","Yellow","Orange","Black","White","Gray","lightGray","darkGray","Pink"};
 	private Choice fchoice, bchoice, schoice;

@@ -12,7 +12,7 @@ import java.io.File;
 import java.applet.Applet;
 	
 /**	Runs miscellaneous File and Window menu commands. */
-public class Commands implements PlugIn {
+public class Commands implements CommandsPlugIn {
 	
 	public void run(String cmd) {
 		if (cmd.equals("new")) {
