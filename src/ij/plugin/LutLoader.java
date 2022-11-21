@@ -12,7 +12,7 @@ import java.net.*;
 	(256 reds, 256 greens and 256 blues), LUTs in text format, 
 	or generates the LUT specified by the string argument 
 	passed to the run() method. */
-public class LutLoader extends ImagePlus implements PlugIn {
+public class LutLoader extends ImagePlus implements LutLoaderPlugIn {
 
 	private static String defaultDirectory = null;
 	private boolean suppressErrors;

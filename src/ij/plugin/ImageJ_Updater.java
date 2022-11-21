@@ -9,7 +9,7 @@ import java.lang.reflect.*;
 
 
 /** This plugin implements the Help/Update ImageJ command. */
-public class ImageJ_Updater implements PlugIn {
+public class ImageJ_Updater implements ImageJ_UpdaterPlugIn {
 	private static final String URL = "http://wsr.imagej.net";
 	private String notes;
 

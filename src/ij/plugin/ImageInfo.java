@@ -15,7 +15,7 @@ import java.lang.reflect.*;
 import java.awt.geom.Rectangle2D;
 
 /** This plugin implements the Image/Show Info command. */
-public class ImageInfo implements PlugIn {
+public class ImageInfo implements ImageInfoPlugIn {
 
 	public void run(String arg) {
 		ImagePlus imp = WindowManager.getCurrentImage();

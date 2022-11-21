@@ -10,7 +10,7 @@ import java.util.*;
 
 /** This plugin opens images specified by list of file paths as a virtual stack.
 	It implements the File/Import/Stack From List command. */
-public class ListVirtualStack extends VirtualStack implements PlugIn {
+public class ListVirtualStack extends VirtualStack implements ListVirtualStackPlugIn {
 	private static boolean virtual;
 	private String[] list;
 	private String[] labels;

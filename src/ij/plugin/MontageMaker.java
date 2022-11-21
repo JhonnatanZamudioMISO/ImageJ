@@ -8,7 +8,7 @@ import java.awt.image.*;
 import java.awt.event.*;
 
 /** Implements the Image/Stacks/Make Montage command. */
-public class MontageMaker implements PlugIn {
+public class MontageMaker implements MontageMakerPlugIn {
 			
 	private static int columns, rows, first, last, inc, borderWidth;
 	private static double scale;

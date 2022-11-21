@@ -10,7 +10,7 @@ import ij.measure.*;
 import java.util.Vector;
 import java.awt.event.*;
 
-public class LUT_Editor implements PlugIn, ActionListener{
+public class LUT_Editor implements LUT_EditorPlugIn, ActionListener{
     private ImagePlus imp;
     Button openButton, saveButton, resizeButton, invertButton;
     ColorPanel colorPanel;

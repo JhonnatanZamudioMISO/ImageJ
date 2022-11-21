@@ -5,7 +5,7 @@ import javax.script.*;
 
 /** Implements the text editor's Macros/Run command, and the
     IJ.runMacroFile() method, when the file name ends with ".js". */
-public class JavaScriptEvaluator implements PlugIn, Runnable  {
+public class JavaScriptEvaluator implements JavaScriptEvaluatorPlugIn, Runnable  {
 	private Thread thread;
 	private String script;
 	private Object result;

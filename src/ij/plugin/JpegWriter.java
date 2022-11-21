@@ -17,7 +17,7 @@ import javax.imageio.metadata.IIOMetadata;
 
 /** The File/Save As/Jpeg command (FileSaver.saveAsJpeg() method) 
       uses this plugin to save images in JPEG format. */
-public class JpegWriter implements PlugIn {
+public class JpegWriter implements JpegWriterPlugIn {
 	public static final int DEFAULT_QUALITY = 75;
 	private static boolean disableChromaSubsampling;
 	private static boolean chromaSubsamplingSet;

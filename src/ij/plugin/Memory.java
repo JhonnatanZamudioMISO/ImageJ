@@ -6,7 +6,7 @@ import ij.util.Tools;
 
 
 /** This plugin implements the Edit/Options/Memory command. */
-public class Memory implements PlugIn {
+public class Memory implements MemoryPlugIn {
 	String s;
 	int index1, index2;
 	File f;

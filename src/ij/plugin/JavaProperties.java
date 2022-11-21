@@ -8,7 +8,7 @@ import java.util.*;
 import java.applet.Applet;
 
 /** Displays the Java system properties in a text window. */
-public class JavaProperties implements PlugIn {
+public class JavaProperties implements JavaPropertiesPlugIn {
 
 	ArrayList list = new ArrayList();
 	

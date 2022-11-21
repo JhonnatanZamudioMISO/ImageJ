@@ -11,7 +11,7 @@ import java.lang.reflect.*;
 
 /** This class runs macros and scripts installed in the Plugins menu as well as
 	macros and scripts opened using the Plugins/Macros/Run command. */
-public class Macro_Runner implements PlugIn {
+public class Macro_Runner implements Macro_RunnerPlugIn {
 	private static String filePath;
 	
 	/** Opens and runs the specified macro file (.txt or .ijm) or script file (.js, .bsh or .py)  

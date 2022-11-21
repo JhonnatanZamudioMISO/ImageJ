@@ -7,7 +7,7 @@ import java.io.*;
 import java.awt.Frame;
 
 /** Saves a table as a csv or tab-delimited text file. */
-public class MeasurementsWriter implements PlugIn {
+public class MeasurementsWriter implements MeasurementsWriterPlugIn {
 
 	public void run(String path) {
 		save(path);

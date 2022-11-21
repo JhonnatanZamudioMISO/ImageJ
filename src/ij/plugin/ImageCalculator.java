@@ -16,7 +16,7 @@ import ij.macro.Interpreter;
    imp3.show();
 </pre>
 */
-public class ImageCalculator implements PlugIn {
+public class ImageCalculator implements ImageCalculatorPlugIn {
 
 	private static String[] operators = {"Add","Subtract","Multiply","Divide", "AND", "OR", "XOR", "Min", "Max", "Average", "Difference", "Copy", "Transparent-zero"};
 	private static String[] lcOperators = {"add","sub","mul","div", "and", "or", "xor", "min", "max", "ave", "diff", "copy", "zero"};

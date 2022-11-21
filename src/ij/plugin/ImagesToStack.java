@@ -10,7 +10,7 @@ import java.awt.Color;
 
 
 /** Implements the Image/Stacks/Images to Stack" command. */
-public class ImagesToStack implements PlugIn {
+public class ImagesToStack implements ImagesToStackPlugIn {
 	private static final int rgb = 33;
 	private static final int COPY_CENTER=0, COPY_TOP_LEFT=1, SCALE_SMALL=2, SCALE_LARGE=3;
 	private static final String[] methods = {"Copy (center)", "Copy (top-left)", "Scale (smallest)", "Scale (largest)"};
